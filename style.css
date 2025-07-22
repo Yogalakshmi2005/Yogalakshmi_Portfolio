@@ -1,0 +1,352 @@
+/* Custom CSS */
+        html, body {
+            margin: 0; 
+            padding: 0;
+        }
+        /* Header */
+        #header {
+            background: #547792;
+        }
+        /* Navigation */
+        .navbar {
+            border-radius: 0;
+            margin: 0;
+            border: none;
+            background-color: #213448;
+        }
+
+        .navbar-toggler {
+            padding: 0;
+            border: 0;
+            color: #fff;
+            margin-top: 13px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            transition: 0.5s background linear;
+            padding: 15px 20px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        /* Home Section */
+        #overlay-1 {
+            position: relative;
+            height: 100vh;
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .middle {
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        .pro-name {
+            font-size: 100px;
+            margin: 0;
+            margin-bottom: 15px;  
+            font-weight: 300;
+            font-family: 'Rouge Script', cursive;
+            line-height: 90px;
+            color: #fff;
+            letter-spacing: 1px;
+            word-spacing: 6px;
+            text-shadow: -2px -2px #000;
+        }
+
+        .tagline {
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            text-shadow: 2px 2px #1C2725;
+        }
+
+        .bottom {
+            position: absolute;
+            width: 100%;
+            bottom: 4%;
+        }
+
+        .bottom a {
+            color: #fff;
+            display: inline-block;
+        }
+
+        /* About Section */
+        #about {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+
+        #about .block-heading h1 {
+            color: #213448;
+            font-weight: 400;
+            font-size: 55px;
+            font-family: 'Milonga', cursive;
+        }
+
+        .about-content {
+            font-size: 16px;
+            line-height: 28px;
+            color: #666;
+        }
+
+        /* Education Section */
+        #education {
+            padding: 80px 0;
+            background: #94B4C1;
+            color: white;
+        }
+
+        #education .block-heading h1 {
+            color: #fff;
+            font-family: 'Milonga', cursive;
+            font-weight: 400;
+            font-size: 55px;
+        }
+
+        .education-item {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .education-year {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffeaa7;
+        }
+
+        .education-degree {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        .education-institute {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 80px 0;
+            background: #fff;
+        }
+
+        #skills .block-heading h1 {
+            color: #213448;
+            font-family: 'Milonga', cursive;
+            font-weight: 400;
+            font-size: 55px;
+        }
+
+        .skill-category {
+            margin-bottom: 40px;
+        }
+
+        .skill-category h3 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-item {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #547792 0%, #94B4C1 100%);
+            border-radius: 10px;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-item i {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+
+        #projects .block-heading h1 {
+            color: #213448;
+            font-weight: 400;
+            font-size: 55px;
+            font-family: 'Milonga', cursive;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-image {
+            height: 200px;
+            background: linear-gradient(135deg, #547792 0%, #94B4C1 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+        }
+
+        .project-content {
+            padding: 25px;
+        }
+
+        .project-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .project-description {
+            color: #666;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .tech-tag {
+            background: rgba(148, 180, 193, 0.1);
+            color: rgba(148, 180, 193, 1);
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            border: 1px solid rgba(148, 180, 193, 0.3);
+        }
+
+        .project-links a {
+            color: rgba(148, 180, 193, 1);
+            margin-right: 15px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        /* Contact Section */
+        #contact {
+            background: #547792;
+            color: #fff;
+            padding: 80px 0;
+        }
+
+        #contact .block-heading h1 {
+            color: #fff;
+            font-family: 'Milonga', cursive;
+            font-weight: 400;
+            font-size: 55px;
+        }
+
+        .contact-info {
+            padding: 20px;
+            text-align: left;
+            font-size: 18px;
+            line-height: 36px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #213448;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .pro-name {
+                font-size: 60px;
+                line-height: 60px;
+            }
+            
+            .skill-grid {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            }
+        }
